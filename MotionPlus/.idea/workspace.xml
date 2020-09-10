@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1b3fb0c-468a-4b4d-b537-5dd1f8e57d27" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hB2z19Vy1YF0aW3S3mfBYpvPIt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\css" />
+      <recent name="E:\SEM 7 Projects\MotionPlus\App" />
+      <recent name="E:\SEM 7 Projects\MotionPlus\static\App" />
+      <recent name="E:\SEM 7 Projects\MotionPlus\static\images" />
+      <recent name="E:\SEM 7 Projects\MotionPlus\static" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1b3fb0c-468a-4b4d-b537-5dd1f8e57d27" name="Default Changelist" comment="" />
+      <created>1599470423550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599470423550</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599537685004">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1599537685004" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1599726533096">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599726533096" />
+  </component>
+</project>

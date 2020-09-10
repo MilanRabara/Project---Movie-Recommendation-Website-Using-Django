@@ -1,0 +1,66 @@
+{% load static %}
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sign In|Log In</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/a764299c6b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'App/css/login.css' %}">
+</head>
+<body>
+	<div class="showcase">
+		<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="{% url '' %}">
+				{% csrf_token %}
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your email for registration</span>
+					<h1>hello</h1>
+					<input id="name" type="text" placeholder="Name" name="Name"/>
+					<input id="email" type="email" placeholder="Email" name="Email"/>
+					<input id="password" type="password" placeholder="Password" name="Password"/>
+					<button>Sign Up</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="#">
+				<h1>Sign in</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" placeholder="Email" />
+				<input type="password" placeholder="Password" />
+				<a href="#">Forgot your password?</a>
+				<button>Sign In</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Friend!</h1>
+					<p>Enter your personal details and start journey with us</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript" src="{% static 'App/js/main.js' %}"></script>
+</body>
+</html>
