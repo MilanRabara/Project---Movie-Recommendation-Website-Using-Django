@@ -14,7 +14,7 @@
 	<div class="showcase">
 		<div class="container" id="container">
 		<div class="form-container sign-up-container">
-			<form action="{% url '' %}">
+			<form method="post">
 				{% csrf_token %}
 				<h1>Create Account</h1>
 				<div class="social-container">
@@ -24,14 +24,15 @@
 				</div>
 				<span>or use your email for registration</span>
 					<h1>hello</h1>
-					<input id="name" type="text" placeholder="Name" name="Name"/>
-					<input id="email" type="email" placeholder="Email" name="Email"/>
-					<input id="password" type="password" placeholder="Password" name="Password"/>
+					<input id="name" type="text" placeholder="Name" name="username1"/>
+					<input id="email" type="email" placeholder="Email" name="email1"/>
+					<input id="password" type="password" placeholder="Password" name="password1"/>
 					<button>Sign Up</button>
 			</form>
 		</div>
 		<div class="form-container sign-in-container">
-			<form action="#">
+			<form method="post">
+				{% csrf_token %}
 				<h1>Sign in</h1>
 				<div class="social-container">
 					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -39,8 +40,8 @@
 					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 				<span>or use your account</span>
-				<input type="email" placeholder="Email" />
-				<input type="password" placeholder="Password" />
+				<input type="text" placeholder="Email"  name="username"/>
+				<input type="password" placeholder="Password" name="password"/>
 				<a href="#">Forgot your password?</a>
 				<button>Sign In</button>
 			</form>
