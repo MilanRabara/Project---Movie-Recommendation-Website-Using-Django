@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1b3fb0c-468a-4b4d-b537-5dd1f8e57d27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionPlus/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionPlus/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1hB2z19Vy1YF0aW3S3mfBYpvPIt" />
   <component name="ProjectViewState">
@@ -80,22 +77,41 @@
       <option name="project" value="LOCAL" />
       <updated>1600698797159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Media Folder Changed">
+      <created>1600701560269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600701560269</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Movie List And Rating added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movie List And Rating added" />
+    <MESSAGE value="Media Folder Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Media Folder Changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600699846896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1600699846896" />
-    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1600698795998">
+    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1600701586139">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600698795998" />
+    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600701586139" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1599726533096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -108,5 +124,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600698798941" />
+    <state x="481" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600701639274">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="481" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1600701639274" />
   </component>
 </project>

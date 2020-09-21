@@ -1,0 +1,48 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="container">
+    <div class="shwcase">
+        <div class="col-xs-6 col-xs-offset-3 ">
+            <form class="form-horizontal" role="search" method="get" action=''>
+                 <div class="form-group">
+                    <input type="text" class="form-control input-lg " name="q" value="{{ request.GET.q }}" placeholder= "Search Movies "/>
+                     <br>
+                     <button class='btn btn-rounded center' type='submit'>Search</button>
+                 </div>
+            </form>
+        </div>
+    </div>
+    {% if messages %}
+            <ul class="messages shwcase">
+            {% for message in messages %}
+                <li  {% if message.tags %} class="{{ message.tags }}"{% endif %} ><h4 style="color:#FFF" >{{ message }}</h4></li>
+            {% endfor %}
+            </ul>
+    {% endif %}
+
+
+    <!-- Movie list -->
+    <div class="row shwcase">
+            {% if movies %}
+            {% for movie in movies %}
+                <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                        <span>{{ movie.title }}</span>
+                        <a href="{% url 'detail' movie.id %}">
+                            <img src="{{ movie.movie_logo.url}}" class="img-responsive">
+                        </a>
+                        <h5>{{ movie.genre }}</h5>
+                        <div class="caption">
+                            <!-- View Details -->
+                            <a href="{% url 'detail' movie.id %}" class="btn btn-primary btn-sm" role="button">Give Rating</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+    </div>
+</div>
+{% endblock %}
