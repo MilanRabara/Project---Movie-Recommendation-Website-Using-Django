@@ -11,7 +11,7 @@ from django.contrib.auth.models import User
 class Movie(models.Model):
     title = models.CharField(max_length=200)
     genre = models.CharField(max_length=100)
-    movie_logo = models.FileField()
+    movie_logo = models.FileField(upload_to='media')
     is_long = models.BooleanField(default=False)
 
     def __str__(self):

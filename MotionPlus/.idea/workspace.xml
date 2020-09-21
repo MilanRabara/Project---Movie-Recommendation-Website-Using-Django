@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b3fb0c-468a-4b4d-b537-5dd1f8e57d27" name="Default Changelist" comment="" />
+    <list default="true" id="a1b3fb0c-468a-4b4d-b537-5dd1f8e57d27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionPlus/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionPlus/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,15 +37,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PYTHON\Project---Movie-Recommendation-Website-Using-Django\MotionPlus\media" />
       <recent name="E:\SEM 7 Projects\MotionPlus\App" />
       <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img\Media" />
       <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\css" />
       <recent name="E:\SEM 7 Projects\MotionPlus\static\App" />
-      <recent name="E:\SEM 7 Projects\MotionPlus\static\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -53,17 +59,43 @@
       <option name="presentableId" value="Default" />
       <updated>1599470423550</updated>
     </task>
+    <task id="LOCAL-00001" summary="Movie List And Rating added">
+      <created>1600698704128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600698704128</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Movie List And Rating added">
+      <created>1600698768776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600698768776</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Movie List And Rating added">
+      <created>1600698797159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600698797159</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Movie List And Rating added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movie List And Rating added" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599537685004">
+    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600699846896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1599537685004" />
-    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1600698767590">
+    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1600699846896" />
+    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1600698795998">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600698767590" />
+    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600698795998" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1599726533096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -72,9 +104,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600678385074" />
-    <state x="261" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600698710430">
+    <state x="261" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600698798941">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600698710430" />
+    <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600698798941" />
   </component>
 </project>
