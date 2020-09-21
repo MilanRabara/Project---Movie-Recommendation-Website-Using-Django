@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1hB2z19Vy1YF0aW3S3mfBYpvPIt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,17 +28,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\css" />
       <recent name="E:\SEM 7 Projects\MotionPlus\App" />
+      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img\Media" />
+      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\css" />
       <recent name="E:\SEM 7 Projects\MotionPlus\static\App" />
       <recent name="E:\SEM 7 Projects\MotionPlus\static\images" />
-      <recent name="E:\SEM 7 Projects\MotionPlus\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SEM 7 Projects\MotionPlus\App\static\App\img" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -60,5 +64,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599726533096" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1600678385074">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600678385074" />
   </component>
 </project>

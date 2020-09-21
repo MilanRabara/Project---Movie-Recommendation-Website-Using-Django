@@ -1,12 +1,10 @@
-{% load static %}
+{% extends 'index.html' %}
+ {% block content %}
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-</head>
-<body>
+<div class="showcase-content">
+    <h1>Confused what to see next?</h1>
+    <a href="{% url 'movies' %}" class="btn btn-xl">Browse Movies</a>
+    <p>Because life is too short to choose incorrect.</p>
+</div>
 
-<h1> testing page </h1>
-</body>
-</html>
+{% endblock %}

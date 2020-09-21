@@ -9,12 +9,13 @@
 }
 
 body{
-	font-family: 'Arial', sans-serif;
+	font-family: 'Arial', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: #000;
 	color: #999;
 	margin: 0;
 	padding: 0;
+	background: url("../img/background.jpg") no-repeat center center/cover fixed;
 }
 
 ul{
@@ -40,10 +41,20 @@ img{
 
 .showcase{
 	width: 100%;
-	height: 100vh;
+	height: 1000vh;
 	position: relative;
-	background: url("../img/background.jpg") no-repeat center center/cover fixed;
+
 }
+
+.shwcase{
+    position: relative;
+    z-index: 2;
+}
+
+.form-group{
+    text-align: center;
+}
+
 .showcase::after{
 	content: '';
 	position: absolute;
@@ -145,8 +156,8 @@ img{
 
 @media (max-width: 960px) {
 
-		.showcase {
-		height: 70vh;
+	.showcase {
+		height: 1000vh;
 	}
 
 	.showcase-top img {
@@ -221,4 +232,24 @@ img{
 		left: 50%;
 		transform: translate(-45%,-45%);
 	}
+}
+
+/*Milan*/
+
+.thumbnail{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.thumbnail span {
+    white-space: nowrap;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.thumbnail img{
+    width: 225px;
+    height: 335px;
 }
