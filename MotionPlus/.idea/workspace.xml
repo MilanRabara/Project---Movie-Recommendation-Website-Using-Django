@@ -18,10 +18,18 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\PYTHON\Project---Movie-Recommendation-Website-Using-Django\MotionPlus\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1hB2z19Vy1YF0aW3S3mfBYpvPIt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/desktop/Movie-Recommendation-Website-master" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600701560269</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Logo Changed">
+      <created>1600831606410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600831606411</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -101,32 +118,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Movie List And Rating added" />
     <MESSAGE value="Media Folder Changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Media Folder Changed" />
+    <MESSAGE value="Logo Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo Changed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600699846896">
+    <state x="223" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600702379278">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1600699846896" />
-    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1600701586139">
+    <state x="223" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1600702379278" />
+    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600702395359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600701586139" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1599726533096">
+    <state x="539" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1600702395359" />
+    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1600832987458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599726533096" />
+    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600832987458" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1600831737371">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600831737371" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1600678385074">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600678385074" />
-    <state x="261" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600698798941">
+    <state x="261" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600833015063">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600698798941" />
-    <state x="481" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600701639274">
+    <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600833015063" />
+    <state x="481" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600833020256">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="481" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1600701639274" />
+    <state x="481" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1600833020256" />
   </component>
 </project>

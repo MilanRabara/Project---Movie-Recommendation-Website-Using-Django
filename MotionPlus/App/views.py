@@ -13,10 +13,10 @@ def home_page(request):
 
 def movielist(request):
     movies = Movie.objects.all()
-    for movie in movies:
-       if  len(movie.title)>14:
-           is_long = True
-           print(is_long)
+    query = request.GET.get('q')
+    if query:
+        movies = Movie.objects.filter(Q(title__icontains=query)).distinct()
+        return render(request, 'MoviesList.html', {'movies': movies})
     return render(request, 'MoviesList.html', {'movies': movies})
 
 
